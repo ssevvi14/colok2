@@ -10,3 +10,27 @@ C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWare
 C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe
 C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.pdb
 C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe.config
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe.config
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.pdb
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe.config
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormDate.resources
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormStore.resources
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.Properties.Resources.resources
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.GenerateResource.cache
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe
+C:\Users\User\Desktop\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.pdb
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe.config
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.pdb
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.AssemblyReference.cache
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe.config
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormDate.resources
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormStore.resources
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.Properties.Resources.resources
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.GenerateResource.cache
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.CoreCompileInputs.cache
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe
+C:\Users\arsal\Downloads\2_5278630633462078839 (1)\Викина программа\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.pdb

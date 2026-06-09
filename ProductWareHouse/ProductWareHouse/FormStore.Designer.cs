@@ -2,15 +2,9 @@
 {
     partial class FormStore
     {
-        /// <summary>
-        /// Обязательная переменная конструктора.
-        /// </summary>
+ 
         private System.ComponentModel.IContainer components = null;
 
-        /// <summary>
-        /// Освободить все используемые ресурсы.
-        /// </summary>
-        /// <param name="disposing">истинно, если управляемый ресурс должен быть удален; иначе ложно.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -28,36 +22,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBoxProducts = new System.Windows.Forms.ListBox();
-            this.listBoxStored = new System.Windows.Forms.ListBox();
             this.btnCheck = new System.Windows.Forms.Button();
+            this.listBoxStored = new System.Windows.Forms.ListBox();
+            this.listBoxProducts = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
-            // listBoxProducts
+            // btnCheck
             // 
-            this.listBoxProducts.FormattingEnabled = true;
-            this.listBoxProducts.Location = new System.Drawing.Point(229, 137);
-            this.listBoxProducts.Name = "listBoxProducts";
-            this.listBoxProducts.Size = new System.Drawing.Size(120, 95);
-            this.listBoxProducts.TabIndex = 0;
+            this.btnCheck.Location = new System.Drawing.Point(338, 163);
+            this.btnCheck.Name = "btnCheck";
+            this.btnCheck.Size = new System.Drawing.Size(87, 27);
+            this.btnCheck.TabIndex = 8;
+            this.btnCheck.Text = "проверка";
+            this.btnCheck.UseVisualStyleBackColor = true;
+            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click_1);
             // 
             // listBoxStored
             // 
             this.listBoxStored.FormattingEnabled = true;
-            this.listBoxStored.Location = new System.Drawing.Point(479, 137);
+            this.listBoxStored.Location = new System.Drawing.Point(178, 220);
             this.listBoxStored.Name = "listBoxStored";
-            this.listBoxStored.Size = new System.Drawing.Size(120, 95);
-            this.listBoxStored.TabIndex = 1;
+            this.listBoxStored.Size = new System.Drawing.Size(428, 95);
+            this.listBoxStored.TabIndex = 7;
             // 
-            // btnCheck
+            // listBoxProducts
             // 
-            this.btnCheck.Location = new System.Drawing.Point(399, 62);
-            this.btnCheck.Name = "btnCheck";
-            this.btnCheck.Size = new System.Drawing.Size(75, 23);
-            this.btnCheck.TabIndex = 2;
-            this.btnCheck.Text = "проверка";
-            this.btnCheck.UseVisualStyleBackColor = true;
-            this.btnCheck.Click += new System.EventHandler(this.btnCheck_Click_1);
+            this.listBoxProducts.FormattingEnabled = true;
+            this.listBoxProducts.Location = new System.Drawing.Point(324, 39);
+            this.listBoxProducts.Name = "listBoxProducts";
+            this.listBoxProducts.Size = new System.Drawing.Size(120, 95);
+            this.listBoxProducts.TabIndex = 6;
+            this.listBoxProducts.DoubleClick += new System.EventHandler(this.listBoxProducts_SelectedIndexChanged);
             // 
             // FormStore
             // 
@@ -69,16 +64,15 @@
             this.Controls.Add(this.listBoxProducts);
             this.Name = "FormStore";
             this.Text = "Склад быстропортящейся продукции";
-            this.Load += new System.EventHandler(this.FormStore_Load);
             this.ResumeLayout(false);
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBoxProducts;
-        private System.Windows.Forms.ListBox listBoxStored;
         private System.Windows.Forms.Button btnCheck;
+        private System.Windows.Forms.ListBox listBoxStored;
+        private System.Windows.Forms.ListBox listBoxProducts;
     }
 }
 

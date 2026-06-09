@@ -35,9 +35,9 @@
             // 
             // btnOk
             // 
-            this.btnOk.Location = new System.Drawing.Point(324, 136);
+            this.btnOk.Location = new System.Drawing.Point(222, 136);
             this.btnOk.Name = "btnOk";
-            this.btnOk.Size = new System.Drawing.Size(75, 23);
+            this.btnOk.Size = new System.Drawing.Size(102, 36);
             this.btnOk.TabIndex = 0;
             this.btnOk.Text = "хорошо";
             this.btnOk.UseVisualStyleBackColor = true;
@@ -45,9 +45,9 @@
             // 
             // btnCancel
             // 
-            this.btnCancel.Location = new System.Drawing.Point(480, 136);
+            this.btnCancel.Location = new System.Drawing.Point(489, 136);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(92, 36);
             this.btnCancel.TabIndex = 1;
             this.btnCancel.Text = "отмена";
             this.btnCancel.UseVisualStyleBackColor = true;
@@ -55,9 +55,9 @@
             // 
             // dateTimePickerReceived
             // 
-            this.dateTimePickerReceived.Location = new System.Drawing.Point(160, 62);
+            this.dateTimePickerReceived.Location = new System.Drawing.Point(270, 74);
             this.dateTimePickerReceived.Name = "dateTimePickerReceived";
-            this.dateTimePickerReceived.Size = new System.Drawing.Size(200, 20);
+            this.dateTimePickerReceived.Size = new System.Drawing.Size(254, 20);
             this.dateTimePickerReceived.TabIndex = 2;
             // 
             // FormDate

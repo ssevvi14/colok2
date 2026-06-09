@@ -12,16 +12,15 @@ namespace ProductWareHouse
 {
     public partial class FormDate : Form
     {
-        public Product product;
-
+        public Product Product { get; set; }
         public DateTime SelectedDate { get; private set; }
 
         public FormDate(Product product)
         {
             InitializeComponent();
-            this.product = product;
-            this.Text = $"Выбор даты поступления: {product.Name}";
-            dateTimePickerReceived.Value = DateTime.Today;
+            this.Product = product;
+            this.Text = ($"Выбор даты поступления: {product.Name}");
+            dateTimePickerReceived.Value = DateTime.Today; 
         }
 
         private void btnOk_Click(object sender, EventArgs e)
@@ -35,8 +34,6 @@ namespace ProductWareHouse
         {
             this.DialogResult = DialogResult.Cancel;
             this.Close();
-
         }
-       
     }
 }

@@ -12,68 +12,57 @@ namespace ProductWareHouse
 {
     public partial class FormStore : Form
     {
-
-        private List<StoredProduct> storedProducts;
-
         private readonly List<Product> availableProducts = new List<Product>
-        {
-            new Product("Молоко", 3),
-            new Product("Йогурт", 5),
-            new Product("Мясо", 2),
-            new Product("Рыба", 1),
-            new Product("Салат", 1)
-        };
+    {
+        new Product("Молоко", 5),
+        new Product("Йогурт", 3),
+        new Product("Мясо", 2),
+        new Product("Рыба", 3),
+        new Product("Салат", 1)
+    };
+
+        private List<StoredProduct> storedProducts = new List<StoredProduct>();
 
         public FormStore()
         {
             InitializeComponent();
-            storedProducts = new List<StoredProduct>();
-            FillProductsList();
-            RefreshStoredList();
+            FillProductsList(); 
+            RefreshStoredList(); 
         }
 
         private void FillProductsList()
         {
-            listBoxProducts.Items.Clear();
-            foreach (var product in availableProducts)
-                listBoxProducts.Items.Add(product);
+            listBoxProducts.DataSource = null;
+            listBoxProducts.DataSource = availableProducts;
         }
 
         private void RefreshStoredList()
         {
-            listBoxStored.Items.Clear();
-            foreach (var item in storedProducts)
-                listBoxStored.Items.Add(item.ToString());
+            listBoxStored.DataSource = null;
+            listBoxStored.DataSource = storedProducts;
         }
 
         private void listBoxProducts_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (listBoxProducts.SelectedItem is Product selectedProduct)
             {
-                using (var dateForm = new FormDate(selectedProduct))
+                using (var formDate = new FormDate(selectedProduct))
                 {
-                    if (dateForm.ShowDialog() == DialogResult.OK)
+                    if (formDate.ShowDialog() == DialogResult.OK)
                     {
-                        var stored = new StoredProduct(selectedProduct, dateForm.SelectedDate);
-                        storedProducts.Add(stored);
+                        var storedProduct = new StoredProduct(selectedProduct, formDate.SelectedDate);
+                        storedProducts.Add(storedProduct);
                         RefreshStoredList();
                     }
                 }
-                listBoxProducts.ClearSelected();
+                listBoxProducts.ClearSelected(); 
             }
         }
 
-        
         private void btnCheck_Click_1(object sender, EventArgs e)
         {
-            storedProducts = storedProducts.Where(p => p.IsExpiredOrNear).ToList();
-            RefreshStoredList();
-
-        }
-
-        private void FormStore_Load(object sender, EventArgs e)
-        {
-
+                    storedProducts = storedProducts.Where(p => p.IsExpiredOrNear).ToList();
+                    RefreshStoredList();
         }
     }
 }

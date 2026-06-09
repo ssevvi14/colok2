@@ -9,13 +9,14 @@ namespace ProductWareHouse
     public class Product
     {
         public string Name { get; set; }
-        public int ShelfLifeDays { get; set; }
+        public int ShelfLifeDays { get; set; } 
 
         public Product(string name, int shelfLifeDays)
         {
             Name = name;
             ShelfLifeDays = shelfLifeDays;
         }
-        public override string ToString() => $"{Name} (годен {ShelfLifeDays} дн.)";
+
+        public override string ToString() => ($"{Name} (годен {ShelfLifeDays} дн.)");
     }
 }
