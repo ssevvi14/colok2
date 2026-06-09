@@ -1,0 +1,12 @@
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe.config
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.exe
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\bin\Debug\ProductWareHouse.pdb
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.AssemblyReference.cache
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormDate.resources
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.FormStore.resources
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.Properties.Resources.resources
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.GenerateResource.cache
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.csproj.CoreCompileInputs.cache
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.pdb
+C:\Users\student\Desktop\ProductWareHouse\ProductWareHouse\obj\Debug\ProductWareHouse.exe.config
